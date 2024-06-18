@@ -6,24 +6,21 @@ Requirements:
 - Environment variable VESSEL_ID set appropiately (e.g. RAS_TN_DB, RAS_TN_GR ...)
 
 ## Setup
-Pull the content to the ros workspace
-```
-cd ~/ros2_ws/src/
-```
+Pull the content of this metapackage the ros workspace
 
 ```
-git clone https://github.com/RAS-Delft/swarm_control_stack_1
+cd ~/ros2_ws/src/; git clone https://github.com/RAS-Delft/swarm_control_stack_1
 ```
 
+Pull/initiate all the submodules in this metapackage
 ```
-cd swarm_control_stack_1/; git submodule update --init --recursive
+cd ~/ros2_ws/src/swarm_control_stack_1/; git submodule update --init --recursive
 ```
 
-Build
+Build ros workspace
 ```
 cd ~/ros2_ws; colcon build; source install/setup.bash
 ```
-
 
 ## Option 1: Run with simulator in the loop
 ```
