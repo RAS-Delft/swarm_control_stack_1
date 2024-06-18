@@ -15,7 +15,7 @@
 	url = https://github.com/RAS-Delft/ras_urdf_common
 [submodule "swarm_controller_1"]
 	path = swarm_controller_1
-	url = https://github.com/RAS-Delft/ras_swarm_controller_1
+	url = https://github.com/RAS-Delft/swarm_controller_1
 [submodule "urdf_launch"]
 	path = urdf_launch
 	url = https://github.com/ros/urdf_launch
