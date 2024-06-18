@@ -4,3 +4,5 @@
 [submodule "reach_ros_node"]
 	path = reach_ros_node
 	url = https://github.com/RAS-Delft/reach_ros_node/
+[submodule "TurtleBoat"]
+	url = https://github.com/bartboogmans/TurtleBoat
