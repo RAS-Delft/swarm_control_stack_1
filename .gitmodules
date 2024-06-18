@@ -5,4 +5,17 @@
 	path = reach_ros_node
 	url = https://github.com/RAS-Delft/reach_ros_node/
 [submodule "TurtleBoat"]
+	path = TurtleBoat
 	url = https://github.com/bartboogmans/TurtleBoat
+[submodule "ras_ros_core_control_modules"]
+	path = ras_ros_core_control_modules
+	url = https://github.com/RAS-Delft/ras_ros_core_control_modules
+[submodule "ras_urdf_common"]
+	path = ras_urdf_common
+	url = https://github.com/RAS-Delft/ras_urdf_common
+[submodule "swarm_controller_1"]
+	path = swarm_controller_1
+	url = https://github.com/RAS-Delft/ras_swarm_controller_1
+[submodule "urdf_launch"]
+	path = urdf_launch
+	url = https://github.com/ros/urdf_launch
