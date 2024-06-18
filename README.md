@@ -16,7 +16,7 @@ git clone https://github.com/RAS-Delft/swarm_control_stack_1
 ```
 
 ```
-git submodule update --init --recursive
+cd swarm_control_stack_1/; git submodule update --init --recursive
 ```
 
 Build
